@@ -1,5 +1,12 @@
 # IMMIXCMS Web Application
 
 ```
-composer create-project immix/laravel your-project-name --prefer-dist
+# cd to the nomad/apps directory then run the following...
+
+git clone --depth=1 https://github.com/immix/laravel your-project
+cd !$
+composer install
+php artisan key:generate
+rm -rf .git
+
 ```
