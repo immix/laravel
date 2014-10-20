@@ -127,6 +127,7 @@ return array(
             
                 // IMMIX providers
                 'Immix\Pages\PagesServiceProvider',
+                'Immix\Cms\Media\MediaServiceProvider',
 
 	),
 
