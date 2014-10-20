@@ -7,6 +7,7 @@ git clone --depth=1 https://github.com/immix/laravel your-project
 cd !$
 composer install
 php artisan key:generate
+php artisan config:publish immix/pages --path="../immixcms/workbench/immix/pages/src/config"
 rm -rf .git
 
 ```
