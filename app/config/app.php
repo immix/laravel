@@ -126,8 +126,7 @@ return array(
 		'Barryvdh\LaravelIdeHelper\IdeHelperServiceProvider',
             
                 // IMMIX providers
-                'Immix\Cms\Media\MediaServiceProvider',
-                'Immix\Cms\Pages\PagesServiceProvider',
+                'Immix\Pages\PagesServiceProvider',
 
 	),
 
