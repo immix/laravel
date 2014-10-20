@@ -121,7 +121,13 @@ return array(
 		'Illuminate\Validation\ValidationServiceProvider',
 		'Illuminate\View\ViewServiceProvider',
 		'Illuminate\Workbench\WorkbenchServiceProvider',
+            
+                // Third party providers
 		'Barryvdh\LaravelIdeHelper\IdeHelperServiceProvider',
+            
+                // IMMIX providers
+                'Immix\Cms\Media\MediaServiceProvider',
+                'Immix\Cms\Pages\PagesServiceProvider',
 
 	),
 
