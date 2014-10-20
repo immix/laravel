@@ -8,6 +8,7 @@ cd !$
 composer install
 php artisan key:generate
 php artisan config:publish immix/pages --path="../immixcms/workbench/immix/pages/src/config"
+php artisan migrate --bench="immix/pages"
 rm -rf .git
 
 ```
