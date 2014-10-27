@@ -14,6 +14,10 @@ return array(
 	|
 	*/
 
+        'google-analytics' => array(
+            'key' => ''
+        ),
+
 	'mailgun' => array(
 		'domain' => '',
 		'secret' => '',
