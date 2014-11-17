@@ -9,8 +9,8 @@ composer install
 php artisan key:generate
 php artisan config:publish immix/pages --path="../immixcms/workbench/immix/pages/src/config"
 php artisan config:publish immix/media --path="../immixcms/workbench/immix/media/src/config"
-cp ../immixcms/workbench/immix/pages/src/migrations app/database/migrations
-cp ../immixcms/workbench/media/pages/src/migrations app/database/migrations
+cp -fv ../immixcms/workbench/immix/pages/src/migrations/* app/database/migrations
+cp -fv ../immixcms/workbench/immix/media/src/migrations/* app/database/migrations
 rm -rf .git
 
 ```
