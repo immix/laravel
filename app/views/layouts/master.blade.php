@@ -8,6 +8,7 @@
         
         @show
         
+        @if (App::environment('production'))
         <script>
             (function (i, s, o, g, r, a, m) {
             i['GoogleAnalyticsObject'] = r;
@@ -23,6 +24,7 @@
             ga('create', "{{ \Config::get('services.google-analytics.key') }}", 'auto');
             ga('send', 'pageview');
         </script>
+        @endif
     
     </body>
 </html>
