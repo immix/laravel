@@ -12,4 +12,5 @@
 */
 
 Artisan::add(new \Immix\App\AddUser());
+Artisan::add(new \Immix\App\Passwd());
 
