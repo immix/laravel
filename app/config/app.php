@@ -157,6 +157,7 @@ return array(
 
 	'aliases' => array(
 
+                'Agent'             => 'Jenssegers\Agent\Facades\Agent',
 		'App'               => 'Illuminate\Support\Facades\App',
 		'Artisan'           => 'Illuminate\Support\Facades\Artisan',
 		'Auth'              => 'Illuminate\Support\Facades\Auth',
