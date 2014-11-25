@@ -124,6 +124,7 @@ return array(
             
                 // Third party providers
 		'Barryvdh\LaravelIdeHelper\IdeHelperServiceProvider',
+                'Jenssegers\Agent\AgentServiceProvider',
             
                 // IMMIX providers
                 'Immix\Pages\PagesServiceProvider',
