@@ -13,7 +13,7 @@
 /*!40000 ALTER TABLE `pages` DISABLE KEYS */;
 INSERT INTO `pages` (`id`, `parent_id`, `category_id`, `slug`, `sort`, `title`, `handler`, `status`, `content`, `banner`, `menu_visible`, `menu_new_tab`, `redirect_to_child`, `home`, `anchor`, `json`, `passcode`, `created_at`, `updated_at`) VALUES
 	(1, NULL, NULL, NULL, 0, 'Home', 'Immix\\Pages\\Handlers\\ContentPageHandler', 'Published', 'Hello world!', '', 1, 0, 0, 1, 0, '', NULL, '2014-10-27 19:05:50', '2014-10-27 19:05:50'),
-	(2, NULL, NULL, NULL, 0, 'Contact', 'Immix\\Pages\\Handlers\\ContactPageHandler', 'Published', '', '', 1, 0, 0, 0, 1, '', NULL, '2014-10-27 19:05:50', '2014-10-27 19:05:50');
+	(2, NULL, NULL, , 'contact', 0, 'Contact', 'Immix\\Pages\\Handlers\\ContactPageHandler', 'Published', '', '', 1, 0, 0, 0, 1, '', NULL, '2014-10-27 19:05:50', '2014-10-27 19:05:50');
 /*!40000 ALTER TABLE `pages` ENABLE KEYS */;
 /*!40101 SET SQL_MODE=IFNULL(@OLD_SQL_MODE, '') */;
 /*!40014 SET FOREIGN_KEY_CHECKS=IF(@OLD_FOREIGN_KEY_CHECKS IS NULL, 1, @OLD_FOREIGN_KEY_CHECKS) */;
