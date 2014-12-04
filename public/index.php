@@ -6,6 +6,8 @@
  * @author   Taylor Otwell <taylorotwell@gmail.com>
  */
 
+include 'turbo.php';
+
 /*
 |--------------------------------------------------------------------------
 | Register The Auto Loader
