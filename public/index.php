@@ -6,7 +6,8 @@
  * @author   Taylor Otwell <taylorotwell@gmail.com>
  */
 
-include 'turbo.php';
+// Turbo charge cache responses
+include '../../immixcms/turbo.php';
 
 /*
 |--------------------------------------------------------------------------
